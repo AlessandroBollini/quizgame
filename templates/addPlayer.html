@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Player</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/addPlayer" method="POST">
+            <div>
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="name" name="name">
+            </div>
+            <div>
+                <label>Nationality</label>
+                <input type="text" class="form-control" placeholder="nationality" name="nationality">
+            </div>
+            <div>
+                <label for="role">Role</label>
+                <select name="role">
+                    <option value="GK">GK</option>
+                    <option value="DEF">DEF</option>
+                    <option value="MID">MID</option>
+                    <option value="ATT">ATT</option>
+                </select>
+            </div>
+            <div>
+                <label>Age</label>
+                <input type="number" class="form-control" placeholder="age" name="age">
+            </div>
+            <div>
+                <label>Goals</label>
+                <input type="number" class="form-control" placeholder="goals" name="goals">
+            </div>
+            <div>
+                <label>Team</label>
+                <input type="text" class="form-control" placeholder="team" name="team">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+
+</html>
